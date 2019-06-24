@@ -107,3 +107,5 @@ function pow(x, y) {
 var x = prompt("Введите x");
 var y = prompt("Введите y");
 alert( pow(x, y) );
+
+
