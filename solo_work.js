@@ -14,9 +14,9 @@ function sum(a) {
 //console.log(sum (2)(10)(1));
 
 /* Task 2*/
-var arr = [1,2,3,];
+var arr = [5,5,4,];
 arr.every(function(pred, i, next) {
-    if (i) return pred > next[i-1];
+    if (i) return pred >= next[i-1];
     else return true; });
 
 
