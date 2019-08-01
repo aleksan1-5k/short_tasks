@@ -20,4 +20,7 @@ arr.every(function(pred, i, next) {
     else return true; });
 
 
-/*Task 3*/
+/*Task 1*/
+
+
+
