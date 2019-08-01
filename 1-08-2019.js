@@ -48,9 +48,9 @@ fs.readFile(filename, (err, data) => {
 });
 */
 
-function promFunc(file1) {
+function promFunc(filename) {
     return new Promise(function (resolve, reject) {
-        fs.readFile(file1, function (err, data) {
+        fs.readFile(filename, function (err, data) {
             if (err) {
                 console.error(err);
             }
